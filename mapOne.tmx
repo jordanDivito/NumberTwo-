@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="35" tileheight="35" nextobjectid="1">
+ <tileset firstgid="1" name="king" tilewidth="70" tileheight="70" spacing="2" margin="2" tilecount="196">
+  <image source="Kenney Platformer Base Pack for Tiled/tileset_forTiled.png" width="1024" height="1024"/>
+ </tileset>
+ <layer name="background" width="20" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuYKIyPQqGLrCB0rZQ2o6Gdi3GIb4Uie0DpX1p6A504AWlvUmUGy5AG0rrUEjrQmkAKQ0Fjw==
+  </data>
+ </layer>
+</map>
