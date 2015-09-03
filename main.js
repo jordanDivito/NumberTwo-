@@ -4,7 +4,7 @@ var context = canvas.getContext("2d");
 var startFrameMillis = Date.now();
 var endFrameMillis = Date.now();
 
-var player = new Player();
+
 var keyboard = new Keyboard();
 
 var LAYER_COUNT = 3;
@@ -33,7 +33,7 @@ var ACCEL = MAXDX * 2;
 var FRICTION = MAXDX * 6;
 	// ( a large) instantaneous jump impules
 var JUMP = METER * 1500;
-
+var player = new Player();
 // This function will return the time in seconds since the function 
 // was last called
 // You should only call this function once per frame
